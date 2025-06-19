@@ -1,0 +1,5 @@
+# client  server  secret  allowed-IPs
+user1   *       password  192.168.1.101
+192.168.1.101# client  server  secret  allowed-IPs
+user1   *       password  192.168.1.101/sbin/ifconfig eth0 192.168.0.1 netmask 255.255.255.0  # Ethernet interface
+/sbin/route add default gw 192.168.0.254  # Default gateway (if applicable)
